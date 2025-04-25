@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Irish Coffee House</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css"
+  />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="nav__container">
+      <div class="nav__logo">
+        <img src="/api/placeholder/175/50" alt="Irish Coffee House" />
+        <span class="cafe-name">Irish Coffee House</span>
+      </div>
+      <div class="nav__menu__btn">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav__links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="btn">Book a Table</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero__carousel">
+      <img src="assets\interior-01.jpg" alt="Café interior" />
+      <img src="assets\interior-02.jpg" alt="Café interior" />
+      <img src="assets\interior-03.jpg" alt="Café interior" />
+      <img src="assets\interior-04.jpg" alt="Café exterior" />
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <h1>Irish Coffee House</h1>
+      <p>
+        Experience the finest Irish coffee and pastries in a warm, inviting
+        atmosphere that feels like home.
+      </p>
+      <a href="#menu" class="btn">Explore Our Menu</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="section__container about__container">
+      <h2 class="section__heading">Our Story</h2>
+      <p>
+        Founded in 2010, Irish Coffee House began as a small corner shop with a
+        big dream: to create a space where coffee isn't just served, but
+        celebrated with the warmth and hospitality of Ireland. Our founders,
+        Siobhan and Patrick, combined their passion for quality beans and
+        traditional brewing methods to create something truly special.
+      </p>
+      <p>
+        Today, we source our beans directly from small-scale farmers across the
+        globe, ensuring ethical practices and exceptional quality. Every cup is
+        crafted with care, every pastry baked fresh daily, and every customer
+        welcomed like family.
+      </p>
+      <p>
+        What started as a cozy little shop has grown into a beloved community
+        gathering place. We've expanded our menu to include authentic Irish
+        breakfast offerings and an array of locally sourced treats, but we've
+        never lost sight of our original mission: to serve exceptional coffee in
+        a warm, welcoming space.
+      </p>
+      <p>
+        Our commitment to quality extends beyond our products to our
+        practices. We're proud to say that our coffee house operates with
+        sustainable methods, from our compostable packaging to our
+        energy-efficient equipment. We believe that caring for our planet is
+        just as important as caring for our customers.
+      </p>
+      <p>
+        When you visit Irish Coffee House, you're not just a customer—you're
+        part of our extended family. We know our regulars by name and their
+        usual orders by heart. We celebrate birthdays, provide comfort during
+        difficult times, and offer a listening ear when needed. It's this
+        sense of community that truly sets us apart.
+      </p>
+      <div style="text-align: center; margin-top: 2rem;">
+        <a href="#contact" class="btn">Visit Us Today</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+<section class="menu" id="menu">
+  <div class="section__container menu__container">
+    <h2 class="section__heading">Our Specialties</h2>
+    <div class="menu__grid">
+      <!-- Refreshing Beverages -->
+      <div class="menu__category">
+        <h3>Refreshing Beverages</h3>
+        <div class="menu__carousel">
+          <div class="menu__carousel-items">
+            <div class="menu__item">
+              <h4>Irish Coffee</h4>
+              <img src="assets/drink-05.jpg" alt="Irish Coffee" />
+              <p>
+                Our signature drink made with premium whiskey, freshly brewed
+                coffee, brown sugar, and topped with hand-whipped cream.
+              </p>
+            </div>
+            <div class="menu__item">
+              <h4>Espresso</h4>
+              <img src="assets/drink-01.jpeg" alt="Espresso" />
+              <p>
+                Rich and aromatic, our espresso is made from freshly ground
+                premium beans for a perfect shot every time.
+              </p>
+            </div>
+            <div class="menu__item">
+              <h4>Irish Tea</h4>
+              <img src="assets/drink-03.jpeg" alt="Irish Tea" />
+              <p>
+                A perfect brew of authentic Irish breakfast tea, served with
+                milk and local honey on request.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-nav">
+            <div class="carousel-dot active" data-index="0"></div>
+            <div class="carousel-dot" data-index="1"></div>
+            <div class="carousel-dot" data-index="2"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Handpicked Bakery Delights -->
+      <div class="menu__category">
+        <h3>Handpicked Bakery Delights</h3>
+        <div class="menu__carousel">
+          <div class="menu__carousel-items">
+            <div class="menu__item">
+              <h4>Fresh Pastries</h4>
+              <img src="assets/bake-01.jpg" alt="Pastries" />
+              <p>
+                Baked fresh every morning, our pastries combine traditional
+                Irish recipes with innovative flavors for a delightful
+                experience.
+              </p>
+            </div>
+            <div class="menu__item">
+              <h4>Irish Soda Bread</h4>
+              <img src="assets/bake-04.png" alt="Soda Bread" />
+              <p>
+                Traditional Irish soda bread made from a family recipe passed
+                down through generations.
+              </p>
+            </div>
+            <div class="menu__item">
+              <h4>Scones & Jam</h4>
+              <img src="assets/bake-05.png" alt="Scones" />
+              <p>
+                Freshly baked scones served with homemade berry jam and
+                clotted cream.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-nav">
+            <div class="carousel-dot active" data-index="0"></div>
+            <div class="carousel-dot" data-index="1"></div>
+            <div class="carousel-dot" data-index="2"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Grab a Bite -->
+      <div class="menu__category">
+        <h3>Grab a Bite</h3>
+        <div class="menu__carousel">
+          <div class="menu__carousel-items">
+            <div class="menu__item">
+              <h4>Full Irish Breakfast</h4>
+              <img src="assets/grabbite-5.jpg" alt="Irish Breakfast" />
+              <p>
+                Start your day right with our hearty breakfast options,
+                featuring locally sourced ingredients and homemade Irish soda
+                bread.
+              </p>
+            </div>
+            <div class="menu__item">
+              <h4>Hearty Sandwiches</h4>
+              <img src="assets/grabbite-4.png" alt="Sandwich" />
+              <p>
+                Freshly made sandwiches with quality ingredients served on our
+                house-baked bread.
+              </p>
+            </div>
+            <div class="menu__item">
+              <h4>Irish Stew</h4>
+              <img src="assets/grabbite-6.jpg" alt="Irish Stew" />
+              <p>
+                A traditional Irish stew made with locally sourced lamb,
+                potatoes, and vegetables.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-nav">
+            <div class="carousel-dot active" data-index="0"></div>
+            <div class="carousel-dot" data-index="1"></div>
+            <div class="carousel-dot" data-index="2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <div class="section__container testimonials__container">
+      <h2 class="section__heading">What Our Customers Say</h2>
+      <div class="swiper testimonialSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="testimonial__card">
+              <h4>Lovely Ambience</h4>
+              <p>
+                “Absolutely loved the cozy vibe at Irish Coffee House! The ambience is warm and welcoming 
+                — perfect for catching up with friends or just chilling with a book and a latte.”
+              </p>
+              <div class="author">- Aanya</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial__card">
+              <h4>Perfect Pizza</h4>
+              <p>
+                "The pizza was a surprise hit! Fresh, cheesy, and just the right crisp on the crust. Definitely coming back for more.”
+              </p>
+              <div class="author">- Rohan</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial__card">
+              <h4>Outstanding Service</h4>
+              <p>
+                “Had a great experience with the staff — super polite, quick service, and always smiling. 
+                They really make you feel at home.”
+              </p>
+              <div class="author">- Akhil</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial__card">
+              <h4>Exceptional Coffee</h4>
+              <p>
+                “Their cold coffee is hands down the best I’ve had in Jammu. Smooth, rich, and perfectly balanced. A must-try!”
+              </p>
+              <div class="author">- Mehak</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial__card">
+              <h4>Best Pasta Ever</h4>
+              <p>
+                “I tried their Alfredo pasta and it was delicious! Creamy, flavorful, and served piping hot. 
+                Paired it with a cappuccino and it made my day.”
+              </p>
+              <div class="author">- Naina</div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="section__container contact__container">
+      <h2 class="section__heading">Book a Table</h2>
+      <div class="contact__form">
+        <form>
+          <div class="form__group">
+            <label for="name">Name</label>
+            <input type="text" id="name" required />
+          </div>
+          <div class="form__group">
+            <label for="email">Email</label>
+            <input type="email" id="email" required />
+          </div>
+          <div class="form__group">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" required />
+          </div>
+          <div class="form__group">
+            <label for="date">Date</label>
+            <input type="date" id="date" required />
+          </div>
+          <div class="form__group">
+            <label for="time">Time</label>
+            <input type="time" id="time" required />
+          </div>
+          <div class="form__group">
+            <label for="guests">Number of Guests</label>
+            <input type="number" id="guests" min="1" max="12" required />
+          </div>
+          <div class="form__group">
+            <label for="message">Special Requests</label>
+            <textarea id="message"></textarea>
+          </div>
+          <div style="text-align: center">
+            <button type="submit" class="btn">Book Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="section__container footer__container">
+      <img src="/api/placeholder/225/75" alt="Irish Coffee House" />
+      <div class="footer__info">
+        <p>123 Coffee Street, Dublin</p>
+        <p>Phone: (01) 456-7890</p>
+        <p>Email: hello@irishcoffeehouse.com</p>
+      </div>
+      <ul class="footer__socials">
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+      </ul>
+      <div class="footer__bar">
+        <p>&copy; 2025 Irish Coffee House. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
